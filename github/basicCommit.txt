@@ -1,0 +1,12 @@
+#Add all files
+
+$ git add .
+
+#Commit
+
+$ git commit -m "Your comment"
+
+#Push
+
+$ git push origin master
+

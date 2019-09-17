@@ -1,0 +1,30 @@
+# Create new branch
+
+$ git checkout -b branchName
+
+# Add files
+
+$ git add .
+
+# Commit files
+
+$ git commit -m "Your comment"
+
+# Submit new branch
+
+$ git push origin branchName
+
+# Return to master branch
+
+$ git checkout master
+
+# Reset origin/master
+
+$ git reset --hard origin/master
+
+# Return to your branch
+
+$ git checkout branchName
+
+
+
