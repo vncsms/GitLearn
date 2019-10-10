@@ -1,0 +1,15 @@
+# Set the branch
+
+$ git checkout -b branchName
+
+# Update the branch
+
+$ git rebase origin/master
+
+# Resolve conflits and then:
+
+$ git rebase --continue
+
+# Push
+
+$ git push origin branchName -f
