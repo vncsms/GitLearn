@@ -8,6 +8,8 @@ $ git rebase origin/master
 
 # Resolve conflits and then:
 
+$ git add .
+
 $ git rebase --continue
 
 # Push
