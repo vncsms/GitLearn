@@ -1,0 +1,7 @@
+- Delete the branch
+
+# git branch -D branchName
+
+- Commit
+
+# git push origin :branchName
