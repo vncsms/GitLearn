@@ -1,0 +1,19 @@
+# Go to branch
+
+- git checkout origin/branchName
+
+#  First update the branch
+
+- git rebase origin/master
+
+# Resolve conflits then change to master
+
+- git checkout origin/master
+
+# Set branch to master
+
+- git rebase origin/branchName
+
+# Commit to master
+
+- git push origin master
